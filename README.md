@@ -82,12 +82,8 @@ The same, you need check your Edge version first, and download compatiable drive
 ![image](https://user-images.githubusercontent.com/6802038/168204995-09f9818c-4e3e-49d3-9b5c-cf7a2ea27b87.png)
 
 **Download and install BeautifulReport**
-
-method1 : clone git repo here
-https://github.com/TesterlifeRaymond/BeautifulReport.git
-
-method2 : visit github and download as zip
-https://github.com/TesterlifeRaymond/BeautifulReport
+  - method1 : clone git repo here https://github.com/TesterlifeRaymond/BeautifulReport.git
+  - method2 : visit github and download as zip https://github.com/TesterlifeRaymond/BeautifulReport
 
 After download, unzip the package and rename as `BeautifulReport`
 ![image](https://user-images.githubusercontent.com/6802038/168205046-541da92f-8663-405c-8e6d-4bd8af7de5f5.png)
@@ -110,6 +106,7 @@ copy `BeautifulReport` all folder into your python > Lib < site-package folderï¼
 ```
 python D:\auto_test\Barco_ClickShare_Warranty_E2E_testing.py
 ```
+After finished, it would auto generate `Barco_assignment_report_01` html report! and click it would see the result.
 
 
 
