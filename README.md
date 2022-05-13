@@ -35,6 +35,7 @@ https://user-images.githubusercontent.com/6802038/168200312-d1426b1d-89e0-48cb-a
 2. [Python Selenium](https://selenium-python.readthedocs.io/installation.html)
 3. [Web driver (Chrome, Firefox, Edge)](https://selenium-python.readthedocs.io/installation.html#drivers)
 4. [BeautifulReport](https://github.com/TesterlifeRaymond/BeautifulReport)
+5. My env : win10
 
 Or you could see also [Python Selenium with VSCODE 教學筆記](https://hackmd.io/@FortesHuang/S1V6jrvet)
 ## Installation steps - python selenium
