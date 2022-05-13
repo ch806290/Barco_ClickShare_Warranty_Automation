@@ -1,5 +1,5 @@
 # Barco_ClickShare_Assignment
-This is for testing Barco web page > ClickShare Warranty input feature in web. And for all automation test cases could seperate different part as below:
+This is for testing Barco web page > ClickShare Warranty input feature in web. And for all automation test cases could seperate different part as below and reference `Test Plan` folder:
 1. **End 2 End Testing**
 2. **Function Testing**
 3. **L10N Testing**
@@ -8,6 +8,11 @@ This is for testing Barco web page > ClickShare Warranty input feature in web. A
 
 ***Automation methodology***:
 I use the python selenium + browser driver + beautifulReport, so if you would like to run the automation case, please follow below steps to accomplish. Finally, I also put the `result report` and `recording` of running case process, if any question, please contact with me, thank you!
+
+<h4 align="center">
+  <img alt="Barco fature scope" src="Barco_feature.jpg">
+</h4>
+
 
 ## Pre-requirement
 ## Installation steps - python selenium
