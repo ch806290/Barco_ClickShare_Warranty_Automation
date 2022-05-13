@@ -1,4 +1,4 @@
-# Barco_ClickShare_Assignment
+# Barco_ClickShare_Warranty_Automation
 This is for testing Barco web page > ClickShare Warranty input feature in web. And for all automation test cases could seperate different part as below and reference `Test Plan` folder:
 1. **End 2 End Testing**
 2. **Function Testing**
