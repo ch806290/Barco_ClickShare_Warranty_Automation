@@ -107,7 +107,7 @@ copy `BeautifulReport` all folder into your python > Lib < site-package folderï¼
 python D:\auto_test\Barco_ClickShare_Warranty_E2E_testing.py
 ```
 After finished, it would auto generate `Barco_assignment_report_01` html report! and click it would see the result.
-![Automation_report_01](https://user-images.githubusercontent.com/6802038/168207798-4762bd70-e605-4be9-abb9-a52d2e4d0d27.jpg)
+![Automation_report_01](https://user-images.githubusercontent.com/6802038/168207937-9d2efd51-4836-4f4b-883a-6b6ef5e99ed4.jpg)
 ![Automation_report](https://user-images.githubusercontent.com/6802038/168207667-341f3561-3751-44c6-8c01-51b35706635b.jpg)
 
 
