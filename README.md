@@ -42,16 +42,59 @@ Or you could see also [Python Selenium with VSCODE 教學筆記](https://hackmd.
 So I would introduce how to install in win10 env.
 
 Make sure your env installed `Python 3.9 or above` version, and open **cmd** and run
-    $ pip install selenium
+```
+$ pip install selenium
+```
+    
 
 ![image](https://user-images.githubusercontent.com/6802038/168201379-9374506c-3c07-4753-845a-6a847b5dd347.png)
 
-And after see "Successfully installed selenium" means you install already!
+And after see ***Successfully installed selenium*** means you install already!
 
 ## Installation steps - browser driver
-#####Chrome driver#####
+### Chrome driver ###
+Automation need browser driver to control event, so need your **chrome version and compiable version of driver**. And if you don't know your chrome version, could use `chrome://settings/help` to check
+
+![image](https://user-images.githubusercontent.com/6802038/168203716-814ca055-32d8-4efc-953a-bfb44a2097f1.png)
+
+
+[**Download Chrome WebDriver**](https://chromedriver.chromium.org/downloads)
+
+
+**Note :** WebDriver save path，suggest to put on the same folder with python execuation folder, and it would be no other issue when running, example: if your python install on path like `C:\Users\你的使用者名稱\AppData\Local\Programs\Python\Python39`, and suggest put the driver in the same folder here.
+
+
+### Firefox driver ###
+The same, you need check your firefox version first, and download compatiable driver version
+[**Download Firefox WebDriver**](https://github.com/mozilla/geckodriver/releases)
+
+
+**Note :** WebDriver save path，suggest to put on the same folder with python execuation folder, and it would be no other issue when running, example: if your python install on path like `C:\Users\你的使用者名稱\AppData\Local\Programs\Python\Python39`, and suggest put the driver in the same folder here.
+
+### Edge driver ###
+The same, you need check your Edge version first, and download compatiable driver version
+[**Download Edge WebDriver**](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+
+
+**Note :** WebDriver save path，suggest to put on the same folder with python execuation folder, and it would be no other issue when running, example: if your python install on path like `C:\Users\你的使用者名稱\AppData\Local\Programs\Python\Python39`, and suggest put the driver in the same folder here.
 
 ## Installation steps - beautifulReport
+![image](https://user-images.githubusercontent.com/6802038/168204995-09f9818c-4e3e-49d3-9b5c-cf7a2ea27b87.png)
+
+**Download and install BeautifulReport**
+
+method1 : clone git repo here
+https://github.com/TesterlifeRaymond/BeautifulReport.git
+
+method2 : visit github and download as zip
+https://github.com/TesterlifeRaymond/BeautifulReport
+
+After download, unzip the package and rename as `BeautifulReport`
+![image](https://user-images.githubusercontent.com/6802038/168205046-541da92f-8663-405c-8e6d-4bd8af7de5f5.png)
+
+copy `BeautifulReport` all folder into your python > Lib < site-package folder：
+`C:\Users\你的使用者名稱\AppData\Local\Programs\Python\Python39\Lib\site-packages\ `
+
 ## Usage - how to run my test case
 
 
@@ -59,90 +102,3 @@ And after see "Successfully installed selenium" means you install already!
 ## Reference
 ---
 
-## Usage
-
-With [npm](https://npmjs.org/) installed, run
-
-    $ npm install -g common-readme
-
-`common-readme` is a command line program. You run it when you've started a new
-module that has a `package.json` set up.
-
-When run, a brand new README is generated and written to your terminal. You can
-redirect this to `README.md` and use it as a basis for your new module.
-
-    $ common-readme > README.md
-
-This brand new readme will be automatically populated with values from
-`package.json` such as `name`, `description`, and `license`. Stub sections will
-be created for everything else (Usage, API, etc), ready for you to fill in.
-
-## Why?
-
-This isn't a crazy new idea. Other ecosystems like [Perl's
-CPAN](http://perldoc.perl.org/perlmodstyle.html) have been benefiting from a
-common readme format for years. Furthermore:
-
-1. The node community is powered by us people and the modules we share. It's our
-   documentation that links us together. Our README is the first thing
-   developers see and it should be maximally effective at communicating its
-   purpose and function.
-
-2. There is much wisdom to be found from the many developers who have written
-   many many modules. Common readme aims to distill that experience into a
-   common format that stands to benefit us all; especially newer developers!
-
-3. Writing the same boilerplate is a waste of every author's time -- we might as
-   well generate the common pieces and let the author focus on the content.
-
-4. Scanning through modules on npm is a part of every node developer's regular
-   development cycle. Having a consistent format lets the brain focus on content
-   instead of structure.
-
-## The Art of README
-
-For even more background, wisdom, and ideas, take a look at the article that
-inspired common-readme:
-
-- [*Art of README*](https://github.com/noffle/art-of-readme).
-
-## Install
-
-With [npm](https://npmjs.org/) installed, run
-
-```shell
-npm install -g common-readme
-```
-
-You can now execute the `common-readme` command.
-
-## Acknowledgments
-
-A standard readme format for the Node community isn't a new idea. Inspiration
-came from many conversations and unrealized efforts in the community:
-
-- <https://github.com/feross/standard/issues/141>
-- [richardlitt/standard-readme](https://github.com/RichardLitt/readme-standard)
-- [zwei/standard-readme](https://github.com/zcei/standard-readme)
-
-This, in addition to my own experiences evaluating hundreds of node modules and
-their READMEs.
-
-I was partly inspired by the audacity of the honey-badger-don't-care efforts of
-[standard](https://github.com/feross/standard).
-
-I also did a great deal of Perl archaeology -- it turns out the monks of the
-Perl community already did much of the hard work of [figuring out great
-READMEs](http://perldoc.perl.org/perlmodstyle.html) and the wisdom around small
-module development well over a decade ago.
-
-Thanks to @mafintosh, @andrewosh, and @feross for many long conversations about
-readmes and Node.
-
-## See Also
-
-READMEs love [`readme`](https://www.npmjs.com/package/readme)!
-
-## License
-
-ISC
