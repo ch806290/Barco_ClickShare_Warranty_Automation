@@ -219,7 +219,7 @@ class Test(unittest.TestCase):
 
     
 
-basedir = "D:\Derrick_only\Practice\Homework\\auto_test"
+basedir = "D:\auto_test"
 if __name__ == '__main__':
     # 取得資料夾目錄底下，符合後面任何副檔名為.py，並進行所有test的測試項目
     test_suite = unittest.defaultTestLoader.discover(
@@ -230,6 +230,6 @@ if __name__ == '__main__':
 
     # 結果產生Report 檔案名稱為 filename, 敘述為 description, log_path 預設放在跟目錄底下就行
     result.report(filename='Barco_assignment_report_04',
-                  description='ClickShare_warranty_feature_testing', log_path='D:\Derrick_only\Practice\Homework\\auto_test')
+                  description='ClickShare_warranty_feature_testing', log_path='D:\auto_test')
 
 # 啟動自動化指令，在終端機輸入: & C:/Users/你的使用者帳號/AppData/Local/Programs/Python/Python39/python.exe d:/auto_test/firstCase.py
