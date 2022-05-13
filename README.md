@@ -97,6 +97,20 @@ copy `BeautifulReport` all folder into your python > Lib < site-package folderï¼
 
 ## Usage - how to run my test case
 
+**Step1.** create `auto_test`folder in path `D:\ `      
+**Step2.** download all automation python files into `D:\auto_test`
+  - Barco_ClickShare_Warranty_E2E_testing.py
+  - Barco_ClickShare_Warranty_Edge_testing.py
+  - Barco_ClickShare_Warranty_Firefox_testing.py
+  - Barco_ClickShare_Warranty_Function_testing.py
+  - Barco_ClickShare_Warranty_L10N_testing.py
+
+
+**Step3.** open cmd console and run
+```
+python D:\auto_test\Barco_ClickShare_Warranty_E2E_testing.py
+```
+
 
 
 ## Reference
